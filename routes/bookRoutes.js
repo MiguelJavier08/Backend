@@ -7,4 +7,5 @@ bookRoutes.get('/all', bookController.fetchallBooks);
 bookRoutes.post('/', bookController.createBook);
 bookRoutes.put('/:id', bookController.editBook);
 
+
 export default bookRoutes;
